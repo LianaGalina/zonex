@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#111111">
+	<title>New site</title>
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body class="card-page">
+	<div class="site-container">
+		<header class="header catalog-header">
+    <div class="container header__container container-narrow">
+      <button class="btn-reset burger header__burger">
+        <span class="burger__line"></span>
+      </button>
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link main-link">Главная</a></li>
+          <li class="nav__item"><a href="#" class="nav__link main-link nav__link--current">Каталог</a></li>
+          <li class="nav__item"><a href="#" class="nav__link main-link">Доставка и оплата</a></li>
+          <li class="nav__item"><a href="#" class="nav__link main-link">Контакты</a></li>
+        </ul>
+        <button class="nav__close btn-reset">закрыть
+          <svg>
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </nav>
+      
+      <a href="" class="logo header__logo" aria-label="logo">
+        <svg>
+          <use xlink:href="img/sprite.svg#logo"></use>
+        </svg>
+      </a>
+      <ul class="shop-nav header__shop-nav">
+        <li class="shop-nav__item">
+          <form action="#" class="shop-nav__search-form search-form">
+            <button class="search-form__btn btn-reset" aria-label="Find"></button>
+          </form>
+        </li>
+        <li class="shop-nav__item">
+          <a href="#" class="shop-nav__link shop-nav__link--user" aria-label="Go to cabinet"></a>
+        </li>
+        <li class="shop-nav__item">
+          <a href="#" class="shop-nav__link cart" aria-label="Go to cart">
+            <span class="cart__icon"></span>
+            <span class="cart__quantity quantity">3</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+		<main class="main">
+			<section class="card">
+				<h2 class="visually-hidden">Product card</h2>
+				<div class="breadcrumbs">
+    <div class="container container-narrow">
+      <ul class="breadcrumbs__list">
+        <li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Главная</a></li>
+        <li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Каталог</a></li>
+        <li class="breadcrumbs__item"><a href="" class="breadcrumbs__link breadcrumbs__link--current">Новая коллекция 2020</a></li>
+      </ul>
+      <div class="card-arrows">
+    <a href="#" class="card-prev">Prev</a>
+    <a href="#" class="card-next">Next</a>
+</div>
+
+    </div>
+  </div>
+				<div class="card-content">
+					<div class="card-content__top">
+					<div class="card-top">
+    <div class="container container-narrow">
+        <div class="card-top__left">
+            <div class="card-slider">
+                <div class="card-slider__thumbs">
+                    <div class="card-slider__thumb">
+                        <img src="img/thumb1.jpg" alt="photo clothes">
+                    </div>
+                    <div class="card-slider__thumb">
+                        <img src="img/thumb2.jpg" alt="photo clothes">
+                    </div>
+                    <div class="card-slider__thumb">
+                        <img src="img/thumb3.jpg" alt="photo clothes">
+                    </div>
+                    <div class="card-slider__thumb">
+                        <img src="img/thumb4.jpg" alt="photo clothes">
+                    </div>
+                    <div class="card-slider__thumb">
+                        <img src="img/thumb5.jpg" alt="photo clothes">
+                    </div>
+                </div>
+                <div class="card-slider__main">
+                    <img src="img/thumb1.jpg" alt="product">
+                </div>
+            </div>
+        </div>
+        <div class="card-top__right">
+            <span class="card-info__prop product__props best">Хит продаж</span>
+            <h3 class="card-info__title">Летний сарафан</h3>
+            <div class="card-info__rate">
+                <img src="img/stars.png" alt="4 of 5 rate">
+                <span>2 Отзыва</span>
+            </div>
+            <div class="card-info__price info-price">
+                <div class="info-price__current">1600 ₽</div>
+                <div class="info-price__old">2600 ₽</div>
+            </div>
+            <p class="card-info__descr">Нам нравятся легкий материал платья, изящная длина миди и сочные цвета.</p>
+            <div class="card-info__select card-info__first-select color-select">
+            <p class="color-select__selected">Color: <span>Green</span></p>
+            <ul class="color-select__list">
+                <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="red" aria-label="Choice red color" style="background-color: red;"></button></li>
+                <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="yellow" aria-label="Choice yellow color" style="background-color: yellow;"></button></li>
+                <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="green" aria-label="Choice green color" style="background-color: green;"></button></li>
+                <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="white" aria-label="Choice white color" style="background-color: white;"></button></li>
+                <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="black" aria-label="Choice black color" style="background-color: black;"></button></li>
+                <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="brown" aria-label="Choice brown color" style="background-color: brown;"></button></li>
+                <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="purple" aria-label="Choice purple color" style="background-color: purple;"></button></li>
+                <li class="color-select__item"><button class="color-select__btn btn-reset" data-color="gray" aria-label="Choice gray color" style="background-color: gray;"></button></li>
+            </ul>
+            </div>
+            <div class="card-info__select card-info__second-select size-select">
+                <div class="size-select__top">
+                    <p class="size-select__selected"> Размер: <span>Выберите размер</span> </p>
+                    <!-- <button class="size-select__btn btn-reset">Size charts</button> -->
+                </div>
+                <ul class="size-select__list">
+                    <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 23 size">40</button></li>
+                    <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 24 size">42</button></li>
+                    <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 25 size">44</button></li>
+                    <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 26 size">46</button></li>
+                    <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 27 size">48</button></li>
+                    <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 28 size">50</button></li>
+                    <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 29 size">52</button></li>
+                    <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 30 size">54</button></li>
+                    <li class="size-select__item"><button class="size-select__btn btn-reset" aria-label="Choice 31 size">56</button></li>
+                </ul>
+                <button class="size-select__clear btn-reset">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#close"></use>
+                    </svg>
+                    clear
+                </button>
+            </div>
+            <div class="card-info__stepper stepper">
+                <button class="btn-reset stepper__btn stepper__btn--minus stepper__btn--disabled" aria-label="minus">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#minus"></use>
+                    </svg>
+                </button>
+                <input type="text" class="stepper__input" value="1" maxlength="5">
+                <button class="btn-reset stepper__btn stepper__btn--plus" aria-label="plus">
+                    <svg>
+                        <use xlink:href="img/sprite.svg#plus"></use>
+                    </svg>
+                </button>
+            </div>
+            <button class="btn-reset card-info__btn card-info__btn--tocart">Добавить в корзину</button>
+            <button class="btn-reset card-info__btn card-info__btn--towishlist">Добавить в избранное</button>
+            <div class="card-info__bottom card-bottom">
+                <div class="card-bottom__item">
+                    <span> Sku: </span>
+                    FW511
+                </div>
+                <div class="card-bottom__item">
+                    <span> Category: </span>
+                    <a href="#">Trousers</a>
+                    <a href="#">Life style</a>
+                </div>
+                <div class="card-bottom__item">
+                    <span> Tags: </span>
+                    <a href="#">Designer</a>
+                    <a href="#">Women</a>
+                </div>
+                <div class="card-bottom__social">
+                    <span>Share:</span>
+                    <ul class="footer__list--row footer__social social">
+                        <li class="social__item"><a href="#" class="social__link social__link--tw" aria-label="Go to twitter"></a></li>
+                        <li class="social__item"><a href="#" class="social__link social__link--fb" aria-label="Go to facebook"></a></li>
+                        <li class="social__item"><a href="#" class="social__link social__link--inst" aria-label="Go to instagram"></a></li>
+                        <li class="social__item"><a href="#" class="social__link social__link--pin" aria-label="Go to pinterest"></a></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+					<div class="card-content__bottom">
+						<div class="card-content__bottom">
+    <div class="card-bottom-content">
+      <div class="container container-narrow">
+        <div class="card-description">
+          <div class="card-description__left">
+            <ul class="card-description__navigation">
+              <li class="card-description__item"><a href="#one" class="card-description__link card-description__link--active">Описание</a></li>
+              <li class="card-description__item"><a href="#two" class="card-description__link">Дополнительная информация</a></li>
+              <li class="card-description__item"><a href="#three" class="card-description__link">Отзывы</a></li>
+              <li class="card-description__item"><a href="#four" class="card-description__link">Описание</a></li>
+            </ul>
+          </div>
+          <div class="card-description__right">
+            <div class="card-description__content card-description__content--active" data-target="#one">
+              <p>    
+                В гардеробе каждой женщины должны присутствовать базовые модели одежды. Платье-сарафан – это именно та модель, которая есть «в арсенале» практически каждой девушки. Вариантов сарафанов существует множество, модели бывают летними и зимними, легкомысленными и деловыми, повседневными и праздничными.     
+              </p>
+              <p> 
+                Огромной популярностью пользуются летние платья-сарафаны. Они могут иметь разнообразные фасоны, но с летним отдыхом у многих ассоциируются модели из шифона или других струящихся тканей с юбкой в пол..
+              </p>
+            </div>
+            <div class="card-description__content" data-target="#two">
+               <p> 
+                 <pre>
+Состав: Хлопок - 70%, Полиэстер - 30%
+Рост модели на фото: 173
+Сезон: лето
+Цвет: зеленый
+Узор: вертикальная полоска
+Гарантийный период: 30 дней
+Страна производства: Россия
+Артикул MP002XW044RH    
+                </pre>    
+              </p>
+            </div>
+            <div class="card-description__content" data-target="#three">
+              <p> 
+                У этого товара пока нет отзывов. Если вы заказывали этот товар, поделитесь своим впечатлением о нём, и другие покупатели будут вам благодарны.    
+             </p>
+           </div>
+           <div class="card-description__content" data-target="#four">
+            <p>    
+              В гардеробе каждой женщины должны присутствовать базовые модели одежды. Платье-сарафан – это именно та модель, которая есть «в арсенале» практически каждой девушки. Вариантов сарафанов существует множество, модели бывают летними и зимними, легкомысленными и деловыми, повседневными и праздничными.     
+            </p>
+            <p> 
+              Огромной популярностью пользуются летние платья-сарафаны. Они могут иметь разнообразные фасоны, но с летним отдыхом у многих ассоциируются модели из шифона или других струящихся тканей с юбкой в пол..
+            </p>
+         </div>
+          </div>
+        </div>
+        <div class="card-related">
+          <h2 class="card-related__title">Похожие товары</h2>
+          <div class="card-related__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="product">
+                  <div class="product__image">
+                    <img src="img/catalog5.jpg" alt="prod 1">
+                  </div>
+                  <span class="product__props top-rate">top rate</span>
+                  <a href="#" class="product__link"></a>
+                  <h3 class="product__title"><a href="#">Свитер</a></h3>
+                  <div class="product-custom">
+                    <div class="product-custom__price">
+                      <span class="product__price">2290 ₽</span>
+                    </div>
+                    <div class="product-custom__cart">
+                      <button class="btn-reset product-custom__to-cart">Добавить в корзину</button>
+                        <div class="product-custom__svg">
+                          <svg>
+                            <use xlink:href="img/sprite.svg#search"></use>
+                          </svg>
+                          <svg>
+                            <use xlink:href="img/sprite.svg#heart"></use>
+                          </svg>
+                        </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="product">
+                  <div class="product__image">
+                    <img src="img/catalog8.jpg" alt="prod 1">
+                  </div>
+                  <span class="product__props only">осталось всего 2</span>
+                  <a href="#" class="product__link"></a>
+                  <h3 class="product__title"><a href="#">Пуловер шерстяной</a></h3>
+                  <div class="product-custom">
+                    <div class="product-custom__price">
+                      <span class="product__price">2290 ₽</span>
+                    </div>
+                    <div class="product-custom__cart">
+                      <button class="btn-reset product-custom__to-cart">Добавить в корзину</button>
+                        <div class="product-custom__svg">
+                          <svg>
+                            <use xlink:href="img/sprite.svg#search"></use>
+                          </svg>
+                          <svg>
+                            <use xlink:href="img/sprite.svg#heart"></use>
+                          </svg>
+                        </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="product">
+                  <span class="product__sale">Sale</span>
+                  <div class="product__image">
+                    <img src="img/catalog2.jpg" alt="prod 1">
+                  </div>
+                  <a href="#" class="product__link"></a>
+                  <span class="product__props hot">sale</span>
+                  <h3 class="product__title"><a href="#">Рубашка</a></h3>
+                  <div class="product-custom">
+                    <div class="product-custom__price">
+                      <span class="product__price">1290 ₽</span>
+                      <span class="product__oldprice">1990 ₽</span>
+                    </div>
+                    <div class="product-custom__cart">
+                      <button class="btn-reset product-custom__to-cart">Добавить в корзину</button>
+                        <div class="product-custom__svg">
+                          <svg>
+                            <use xlink:href="img/sprite.svg#search"></use>
+                          </svg>
+                          <svg>
+                            <use xlink:href="img/sprite.svg#heart"></use>
+                          </svg>
+                        </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="product">
+                  <div class="product__image">
+                    <img src="img/catalog11.jpg" alt="prod 1">
+                  </div>
+                  <a href="#" class="product__link"></a>
+                  <h3 class="product__title"><a href="#">Пальто</a></h3>
+                  <div class="product-custom">
+                    <div class="product-custom__price">
+                      <span class="product__price">4990 ₽</span>
+                    </div>
+                    <div class="product-custom__cart">
+                      <button class="btn-reset product-custom__to-cart">Добавить в корзину</button>
+                        <div class="product-custom__svg">
+                          <svg>
+                            <use xlink:href="img/sprite.svg#search"></use>
+                          </svg>
+                          <svg>
+                            <use xlink:href="img/sprite.svg#heart"></use>
+                          </svg>
+                        </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="product">
+                  <span class="product__sale">Sale</span>
+                  <div class="product__image">
+                    <img src="img/catalog9.jpg" alt="prod 1">
+                  </div>
+                  <span class="product__props hot">sale</span>
+                  <a href="#" class="product__link"></a>
+                  <h3 class="product__title"><a href="#">Комбинезон джинсовый</a></h3>
+                  <div class="product-custom">
+                    <div class="product-custom__price">
+                      <span class="product__price">2200 ₽</span>
+                      <span class="product__oldprice">2900 ₽</span>
+                    </div>
+                    <div class="product-custom__cart">
+                      <button class="btn-reset product-custom__to-cart">Добавить в корзину</button>
+                        <div class="product-custom__svg">
+                          <svg>
+                            <use xlink:href="img/sprite.svg#search"></use>
+                          </svg>
+                          <svg>
+                            <use xlink:href="img/sprite.svg#heart"></use>
+                          </svg>
+                        </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="swiper-pagination related-pag">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+					</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer footer-catalog">
+	<div class="footer__container footer-catalog__container container">
+		<div class="footer__content">
+		  <div class="footer__top footer-catalog__top">
+			<div class="footer__column">
+				<ul class="footer__list--row footer__social social">
+					<li class="social__item"><a href="#" class="social__link social__link--tw" aria-label="Go to twitter"></a></li>
+					<li class="social__item"><a href="#" class="social__link social__link--fb" aria-label="Go to facebook"></a></li>
+					<li class="social__item"><a href="#" class="social__link social__link--inst" aria-label="Go to instagram"></a></li>
+					<li class="social__item"><a href="#" class="social__link social__link--pin" aria-label="Go to pinterest"></a></li>
+				  </ul>
+			  </div>
+			<div class="footer__column">
+				<ul class="footer__list footer__list--row footer__list--privacy">
+					<li class="footer__item"><a href="#" class="footer__link footer__link--row">Условия возврата</a></li>
+					<li class="footer__item"><a href="#" class="footer__link footer__link--row">Условия доставки</a></li>
+					<li class="footer__item"><a href="#" class="footer__link footer__link--row">Политика конфиденциальности</a></li>
+				  </ul>
+			  </div>
+			<div class="footer__column">
+				<div class="footer-catalog__selects">
+					<div class="footer-catalog__select">
+						<span>Валюта</span>
+						<div class="custom-select footer-catalog__custom-select" tabindex="0">
+							<div class="custom-select__top ">USD</div>
+							<div class="custom-select__dropdown">
+							<ul class="custom-select__list">
+								<li class="custom-select__item">USD</li>
+								<li class="custom-select__item">EUR</li>
+								<li class="custom-select__item">RUB</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer-catalog__select">
+						<span>Язык</span>
+						<div class="custom-select footer-catalog__custom-select" tabindex="0">
+							<div class="custom-select__top">English</div>
+							<div class="custom-select__dropdown">
+							<ul class="custom-select__list">
+								<li class="custom-select__item">English</li>
+								<li class="custom-select__item">Italian</li>
+								<li class="custom-select__item">Russia</li>
+							</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		  </div>
+		  <div class="footer__bottom footer-catalog__bottom">
+			<div class="footer__left">
+			  <span class="footer-catalog__copy">©2019 Zonex All rights reserved</span>
+			</div>
+			<div class="footer__right">
+			  <img src="img/payment.png" alt="payment">
+			</div>
+		  </div>
+		</div>
+	  </div>
+</footer>
+
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
