@@ -65,11 +65,12 @@
     height: 100vh;
     background-color: #fff;
     transition: left 0.3s;
+    overflow: auto;
   }
 
   @include sm {
-    width: 80%;
     padding: 20% 0;
+    width: 80%;
   }
 }
 
