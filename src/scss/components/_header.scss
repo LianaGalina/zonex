@@ -63,14 +63,19 @@
     padding: 10% 0;
     width: 60%;
     height: 100vh;
+    min-height: 410px;
     background-color: #fff;
     transition: left 0.3s;
-    overflow: auto;
+    
   }
 
   @include sm {
     padding: 20% 0;
     width: 80%;
+  }
+
+  @include md-height {
+    padding: 0;  
   }
 }
 
