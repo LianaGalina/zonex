@@ -2,51 +2,51 @@
     {
         "title": "Пальто",
         "price": "4990 ₽",
-        "img": "../img/catalog11.jpg"
+        "img": "./img/catalog11.jpg"
     },
     {
         "title": "Свитер шерстяной",
         "price": "1500 ₽",
-        "img": "../img/catalog3.jpg"
+        "img": "./img/catalog3.jpg"
     },
     {
         "title": "Лодочки на низком каблуке",
         "price": "1690 ₽",
-        "img": "../img/catalog12.jpg"
+        "img": "./img/catalog12.jpg"
     },
     {
         "title": "Футболка базовая",
         "price": "900 ₽",
-        "img": "../img/catalog4.jpg"
+        "img": "./img/catalog4.jpg"
     },
     {
         "title": "Комбинезон джинсовый",
         "price": "2200 ₽",
-        "img": "../img/catalog9.jpg"
+        "img": "./img/catalog9.jpg"
     },
     {
         "title": "Рубашка",
         "price": "1290 ₽",
-        "img": "../img/catalog2.jpg"
+        "img": "./img/catalog2.jpg"
     },
     {
         "title": "Платье красное",
         "price": "1750 ₽",
-        "img": "../img/catalog6.jpg"
+        "img": "./img/catalog6.jpg"
     },
     {
         "title": "Жакет утепленный",
         "price": "1800 ₽",
-        "img": "../img/catalog7.jpg"
+        "img": "./img/catalog7.jpg"
     },
     {
         "title": "Свитер",
         "price": "1500 ₽",
-        "img": "../img/catalog5.jpg"
+        "img": "./img/catalog5.jpg"
     },
     {
         "title": "Серьги",
         "price": "1360 ₽",
-        "img": "../img/catalog10.jpg"
+        "img": "./img/catalog10.jpg"
     }
 ]
