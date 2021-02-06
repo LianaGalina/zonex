@@ -6,7 +6,7 @@ let dataLength;
 
 if (productsGrid) {
     const fetchProducts = (quantity = 5) => {
-        fetch('../resources/products.json')
+        fetch('resources/products.json')
         .then((response) => {
             return response.json();
         })
