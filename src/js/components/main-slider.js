@@ -4,6 +4,7 @@ import vars from '../_vars';
 
 const bannerSlider = new Swiper(vars.$bunnerSlider, {
     loop: true,
+    containerModifierClass: 'banner__slider-',
     slidePerView: 1,
     pagination: {
         el: '.banner-pag',

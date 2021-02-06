@@ -116,20 +116,21 @@
     padding: 70px;
   }
 
-  @include xs {
-    padding: 15px;
+  @include sm {
+    padding: 25px;
+    padding-bottom: 50px;
   }
 }
 
 .hero-catalog__next,
 .hero-catalog__prev {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   left: 30px;
   top: 50%;
   z-index: 20; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 2px solid var(--color-dark);
   width: 48px;
   height: 48px;
@@ -153,7 +154,7 @@
     left: 10px;
   }
 
-  @include xs {
+  @include sm {
     display: none;
   }
   
@@ -165,5 +166,14 @@
 
   @include md {
     right: 10px;
+  }
+}
+
+.catalog-pag {
+  display: none;
+  
+  @include sm {
+    display: block;
+    padding-bottom: 45px;
   }
 }
