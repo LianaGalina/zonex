@@ -1,0 +1,180 @@
+.main-products {
+  margin-bottom: 50px;
+
+  &__container {
+    padding-top: 105px;
+    padding-bottom: 50px;
+
+    @include xs {
+      padding-top: 70px;
+    }
+  }
+  
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 36px;
+
+      @include xs {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  &__btn {
+    font-size: 24px;
+    color: var(--color-grey);
+
+    &--current {
+      color: var(--color-dark);
+
+      &::before {
+        opacity: 1;
+        transition: opacity 0.15s;
+      }
+    }
+    &:hover {
+      color: var(--color-dark);
+    }
+
+    @include sm {
+      font-size: 20px;
+    }
+
+    @include xs {
+      font-size: 16px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__btn-center{
+    text-align: center;
+    
+    svg {
+      transition: transform 0.3s;
+    }
+
+    &:hover {
+      svg {
+        transform: translateY(5px);
+        transition: transform 0.3s;
+      }
+    }
+  }
+
+  &__more {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 93px;
+    font-size: 13px;
+    color: var(--color-grey);
+
+    span{
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    svg {
+      width: 12px;
+      height: 21px;
+      fill: var(--color-dark);
+    }
+
+    @include md {
+      margin-top: 50px;
+     }
+  }
+
+  @include md {
+    margin-bottom: 0;
+  }
+
+  @include xs {
+    margin-top: 0px;
+  }
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    margin-right: 1.8%;
+    margin-bottom: 80px;
+    width: 18.5%;
+
+    &:nth-child(3n) {
+      @include md {
+        margin-right: 0;
+      }
+
+      @include xs {
+        margin-right: 4%;
+      }
+    }
+
+    &:nth-child(5n) {
+      margin-right: 0;
+
+      @include md {
+        margin-right: 5%;
+      }
+
+      @include xs {
+        margin-right: 4%;
+      }
+    }
+    
+    &:nth-last-child(-n+5){
+      margin-bottom: 0;
+
+      @include md {
+        margin-bottom: 40px;
+      }
+
+      @include xs {
+        margin-bottom: 30px;
+      }
+    }
+
+    &:nth-last-child(-n+3){
+      margin-bottom: 0;
+
+      @include xs {
+        margin-bottom: 30px;
+      }
+    }
+
+    &:nth-child(2n){
+      @include xs {
+        margin-right: 0;
+      }
+    }
+
+    &:nth-last-child(-n+2){
+      @include xs {
+        margin-bottom: 0;
+      }
+    }
+
+    @include md {
+      margin-right: 5%;
+      width: 30%;
+    }
+
+    @include xs {
+      margin-right: 4%;
+      width: 48%;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.nav {
+  &__list {
+    display: flex;
+
+    @include md {
+      display: block;
+    }    
+  }
+  
+  &__item {
+
+    @include md {
+      margin-right: 0;
+    }
+
+    &:not(:last-child) {
+      margin-right: 42px;
+
+      @include md {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__link{
+
+    @include md {
+      display: inline-block;
+      border-bottom: 1px solid #bfbfbf;
+      padding: 30px 10%;
+      width: 100%;
+      font-size: 18px;
+    }
+
+    &:hover {
+      @include md {
+        &::before {
+          opacity: 0;
+        }
+      }
+    }
+
+    &--current {
+
+      &::before {
+        opacity: 1;
+        transition: opacity 0.15s;
+
+        @include md {
+          opacity: 0;
+        }
+      }
+    }
+  }
+
+  &--visible {
+    left: 0;
+    transition: left 0.3s;
+  }
+
+  &__close {
+    display: none;
+
+    @include md {
+      position: absolute;
+      right: 10%;
+      top: 6%;
+      display: flex;
+    }
+
+    svg {
+      margin-left: 10px;
+      width: 20px;
+      height: 15px;
+    }
+  }
+}
