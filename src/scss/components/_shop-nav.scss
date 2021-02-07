@@ -10,6 +10,10 @@
         margin-right: 15px;
       }
     }
+
+    &:last-child {
+      transform: translateY(-2px);
+    }
   }
   
   &__link{
