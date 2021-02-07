@@ -2,7 +2,7 @@ import vars from '../_vars';
 
 if (vars.$marketing) {
     let counter = 0;
-    let delay = 4000;
+    let delay = 5000;
 
     const data = [
         {
@@ -31,7 +31,7 @@ if (vars.$marketing) {
 
         setTimeout(() => {
             vars.$marketing.classList.add('marketing--visible');
-        }, delay - 2000);
+        }, delay - 3000);
 
         const stringTitle = `${data[counter].title}`;
         const stringWhere = `15 минут назад из ${data[counter].where}`;
