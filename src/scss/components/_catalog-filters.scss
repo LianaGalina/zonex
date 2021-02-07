@@ -311,6 +311,7 @@
 
     &:not(:nth-child(4n)){
       margin-right: 3%;
+
       @include md {
         margin-right: 0;
       }
@@ -318,6 +319,12 @@
 
     &:nth-last-child(-n+4) {
       margin-bottom: 0;
+    }
+
+    &:nth-last-child(2n) {
+      @include md {
+        margin-bottom: 50px;
+      }
     }
 
     @include md {
